@@ -1,0 +1,258 @@
+@charset "UTF-8";
+/* Body */
+body {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	background-color: #cbeff6;
+	margin: 0;
+	
+}
+
+/* Container */
+.container {
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	background-color: #CCEFF6;
+}
+
+.hero_header {
+	color: #CCEFF6;
+	text-align: center;
+	margin: 0;
+	letter-spacing: 4px;
+}
+/*Navigation bar*/
+.header {
+	
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+	display: block;
+	margin: 0 auto;
+	border: 0px solid red;
+	vertical-align: middle;
+  }
+  
+  .topnav a {
+	float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 21px;
+	height: 50px;
+	margin: 0px auto;
+	display: inline-block;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: #0d1b1e
+  }
+  
+  .topnav a.active {
+    background-color: #333;
+    color: white;
+  }
+
+div {padding-left:0px}
+
+/* About Section */
+
+.gallery {
+	clear: both;
+	display: inline-block;
+	width: 100%;
+	background-color: #FFFFFF;
+	/* [disabled]min-width: 400px;
+	
+*/
+	padding-bottom: 35px;
+	padding-top: 0px;
+	margin-top: -5px;
+	margin-bottom: 0px;
+}
+
+
+.gallery .thumbnail p {
+	margin: 0;
+	color: #B3B3B3;
+	text-align: left;
+	padding-left: 20px;
+}
+/* More info */
+.intro {
+	background: #00add4;
+	padding-bottom: 35px;
+}
+.column {
+	width: 50%;
+	text-align: center;
+	padding-top: 30px;
+	float: left;
+}
+
+.intro .column p {
+	background: #00add4;
+	color: #FFFFFF;
+	
+}
+.cards {
+	width: 100%;
+	height: auto;
+	max-width: 400px;
+	max-height: 200px;
+	opacity: 0.8;
+}
+.intro .column p {
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: justify;
+	line-height: 25px;
+	font-weight: lighter;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 80%;
+	margin-top: 4%;
+}
+/*footer*/
+.button {
+	width: 200px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border: 3px solid #FFFFFF;
+	color: #FFFFFF;
+	transition: all 0.3s linear;
+}
+.button:hover {
+	background-color: #6DC7D0;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+.copyright {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #717070;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+}
+footer {
+	background-color: #B3B3B3;
+	padding-top: 60px;
+	padding-bottom: 60PX;
+}
+.intro {
+	display: inline-block;
+	background-color: #6DC7D0;
+}
+.profile {
+	width: 50%;
+}
+
+
+
+/*Cards with info*/
+
+.container {
+	position: relative;
+	text-align: center;
+	color: white;
+  }
+  .centered {
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
+  .lefttext {
+	padding: 5px;
+	position: absolute;
+	top: 40%;
+	left: 20%;
+	transform: translate(-50%, -50%);
+	background-color: #00ADD4;
+	color: white;
+  }
+
+  .centertext {
+	padding: 5px;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #00ADD4;
+	color: white;
+  }
+  
+  .rigthtext {
+	padding: 5px;
+	position: absolute;
+	top: 40%;
+	right: 1px;
+	transform: translate(-50%, -50%);
+	background-color: #00ADD4;
+	color: white;
+  }
+.mainsection {
+	padding: 30px;
+	display: block;
+	float: left;
+	border: 0px solid red;
+}
+.pictplaceholder {
+	width: 400px;
+	padding: 0px;
+	margin: 0px;
+	display: block;
+	float: left;
+	border: 0px solid blue;
+}
+.mainpict {
+	display: block;
+	width: 200px;
+	overflow: hidden;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+.histogmediatext {
+	float: left;
+	margin-left: 50px;
+	width: 800px;
+	text-align: left;
+	color: black;
+	padding: 0px;
+	border: 0px solid green;
+}
+
+.histogmediatext h1 {
+	color: #333;
+	text-align: center;
+	margin-top: 0px;
+}
+footer {
+	clear: both;
+}
+
+
+
+

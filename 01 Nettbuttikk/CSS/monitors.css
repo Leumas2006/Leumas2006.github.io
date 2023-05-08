@@ -1,0 +1,91 @@
+/*Lager navigation bar*/
+body {
+
+background: #ffffff ;
+
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+    font-size: 21px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: #222;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+div {padding-left:0px}
+
+  
+  /*Setter layoute til siden*/
+  
+  
+  .item1 { grid-area: header; }
+  .item2 { grid-area: menu; }
+  .item3 { grid-area: main; }
+  .item4 { grid-area: right; }
+  .item5 { grid-area: footer; }
+
+.item1, .item4, .item5 {
+  text-align: center;
+}
+
+/*lista med innhaldet av produkter*/
+  .item2 {
+
+ text-align: center;
+
+ color: rgb(0, 0, 0);
+  }
+
+  .item2 a {
+    text-decoration: none;
+  }
+  .item2 a:hover {
+    background-color: #ddd;
+    color: rgb(20, 20, 20);
+  }
+
+
+  /*Hovud delen av nettsida med produkter*/
+.item3 {
+  text-align: center;
+}
+
+
+
+  /*Layouten om korleis dei forsjellige delene av nettsia er lagt inn.*/
+
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+      'header header header header header header'
+      'menu main main main main  right'
+      'footer footer footer footer footer footer';
+    gap: 5px;
+    background-color: #79a8ce;
+    padding: 5px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px 0;
+    font-size: 30px;
+  }
