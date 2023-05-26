@@ -212,6 +212,41 @@ footer {
 	background-color: #00ADD4;
 	color: white;
   }
+
+  .leftdown {
+	padding: 5px;
+	position: absolute;
+	top: 70%;
+	left: 20%;
+	transform: translate(-50%, -50%);
+	background-color: #00ADD4;
+	color: white;
+  }
+  .centerdown {
+	padding: 5px;
+	position: absolute;
+	top: 70%;
+	right: 1px;
+	transform: translate(-50%, -50%);
+	background-color: #00ADD4;
+	color: white;
+  }
+
+  .rigthdown {
+	padding: 5px;
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #00ADD4;
+	color: white;
+  }
+
+
+
+
+
+
 .mainsection {
 	padding: 30px;
 	display: block;
