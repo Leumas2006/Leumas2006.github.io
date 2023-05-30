@@ -222,7 +222,7 @@ footer {
 	background-color: #00ADD4;
 	color: white;
   }
-  .centerdown {
+  .rigthdown {
 	padding: 5px;
 	position: absolute;
 	top: 70%;
@@ -232,7 +232,7 @@ footer {
 	color: white;
   }
 
-  .rigthdown {
+  .centerdown {
 	padding: 5px;
 	position: absolute;
 	top: 70%;
@@ -270,10 +270,8 @@ footer {
 	padding: 0px;
 }
 .histogmediatext {
-	float: left;
-	margin-left: 50px;
-	width: 800px;
-	text-align: left;
+	float: middle;
+	margin-left: 0px;
 	color: black;
 	padding: 0px;
 	border: 0px solid green;
