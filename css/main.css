@@ -174,7 +174,7 @@ footer {
 
 .container {
 	position: relative;
-	text-align: center;
+	text-align: left;
 	color: white;
   }
   .centered {
@@ -191,6 +191,7 @@ footer {
 	transform: translate(-50%, -50%);
 	background-color: #00ADD4;
 	color: white;
+	padding: 10px 20px 10px 20px;
   }
 
   .centertext {
@@ -201,49 +202,51 @@ footer {
 	transform: translate(-50%, -50%);
 	background-color: #00ADD4;
 	color: white;
+	padding: 10px 20px 10px 20px;
   }
   
   .rigthtext {
 	padding: 5px;
 	position: absolute;
 	top: 40%;
-	right: 1px;
+	right: -60px;
 	transform: translate(-50%, -50%);
 	background-color: #00ADD4;
 	color: white;
+	padding: 10px 20px 10px 20px;
   }
 
   .leftdown {
 	padding: 5px;
 	position: absolute;
-	top: 70%;
+	top: 73%;
 	left: 20%;
 	transform: translate(-50%, -50%);
 	background-color: #00ADD4;
 	color: white;
+	padding: 10px 20px 10px 20px;
   }
   .rigthdown {
 	padding: 5px;
 	position: absolute;
-	top: 70%;
-	right: 1px;
+	top: 73%;
+	right: -45px;;
 	transform: translate(-50%, -50%);
 	background-color: #00ADD4;
 	color: white;
+	padding: 10px 20px 10px 20px;
   }
 
   .centerdown {
 	padding: 5px;
 	position: absolute;
-	top: 70%;
+	top: 73%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	background-color: #00ADD4;
 	color: white;
+	padding: 0px 20px 10px 20px;
   }
-
-
-
 
 
 
@@ -273,14 +276,18 @@ footer {
 	float: middle;
 	margin-left: 0px;
 	color: black;
-	padding: 0px;
+	padding-top: 10px;
 	border: 0px solid green;
+	text-align: center;
+	padding-bottom: 500px;
+
 }
 
 .histogmediatext h1 {
 	color: #333;
 	text-align: center;
 	margin-top: 0px;
+	padding-top: 30px;
 }
 footer {
 	clear: both;
